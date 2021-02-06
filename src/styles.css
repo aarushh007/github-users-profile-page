@@ -1,0 +1,45 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+#users {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+}
+@media only screen and (min-width: 500px) {
+  #users {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media only screen and (min-width: 700px) {
+  #users {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media only screen and (min-width: 900px) {
+  #users {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+@media only screen and (min-width: 1100px) {
+  #users {
+    grid-template-columns: repeat(5, 1fr);
+  }
+}
+@media only screen and (min-width: 1300px) {
+  #users {
+    grid-template-columns: repeat(6, 1fr);
+  }
+}
+#myDiv {
+  background-color: white;
+  margin: 20px;
+  padding: 10px 10px 5px 10px;
+}
+body {
+  background-color: #f5f5f5;
+}
+img {
+  width: 80px;
+  border-radius: 100%;
+}
